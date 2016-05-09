@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from .tasks import predict
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^predict/', predict)
 ]
