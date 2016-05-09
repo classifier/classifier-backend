@@ -8,3 +8,5 @@ djangorestframework==3.3.3
 kombu==3.0.35
 Markdown==2.6.6
 pytz==2016.4
+django-cors-headers
+
